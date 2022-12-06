@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\smart_contracts",
+    "\\smart_contracts\\contracts",
+    "\\smart_contracts\\scripts",
+    "\\smart_contracts\\test",
+    "\\smart_contracts\\utils"
   ],
-  "SelectedNode": "\\C:\\Users\\asus\\Source\\Repos\\KryptoPunks-nft-staking-dapp",
+  "SelectedNode": "\\smart_contracts\\yarn.lock",
   "PreviewInSolutionExplorer": false
 }
