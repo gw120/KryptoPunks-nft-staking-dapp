@@ -7,6 +7,6 @@
     "\\smart_contracts\\test",
     "\\smart_contracts\\utils"
   ],
-  "SelectedNode": "\\smart_contracts\\yarn.lock",
+  "SelectedNode": "\\smart_contracts\\contracts\\KryptoPunksToken.sol",
   "PreviewInSolutionExplorer": false
 }
