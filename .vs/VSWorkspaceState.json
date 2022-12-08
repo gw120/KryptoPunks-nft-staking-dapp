@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\smart_contracts",
-    "\\smart_contracts\\contracts",
-    "\\smart_contracts\\scripts",
+    "\\front-end",
+    "\\front-end\\public",
+    "\\front-end\\src",
+    "\\front-end\\src\\components",
+    "\\front-end\\src\\features",
+    "\\front-end\\src\\pages",
+    "\\front-end\\src\\utils",
     "\\smart_contracts\\test",
     "\\smart_contracts\\utils"
   ],
-  "SelectedNode": "\\smart_contracts\\contracts\\KryptoPunksToken.sol",
+  "SelectedNode": "\\front-end\\yarn.lock",
   "PreviewInSolutionExplorer": false
 }
