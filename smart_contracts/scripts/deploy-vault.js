@@ -32,7 +32,7 @@ async function main() {
 
     await stakingVault.deployed();
 
-    const control_tx = await tokenContract.setController(stakingVault.address, true)
+    const set_tx = await nftContract.setBaseURI("ipfs/test-uri")
     await control_tx.wait()
 
     console.log("KryptoPunks NFT contract deployed at:\n", nftContract.address);
