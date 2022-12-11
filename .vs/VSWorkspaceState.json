@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\front-end",
-    "\\front-end\\public",
     "\\front-end\\src",
     "\\front-end\\src\\assets",
+    "\\front-end\\src\\components",
     "\\front-end\\src\\pages",
     "\\smart_contracts",
     "\\smart_contracts\\contracts",
     "\\smart_contracts\\scripts",
     "\\smart_contracts\\test"
   ],
-  "SelectedNode": "\\front-end\\src\\pages\\MintPage.js",
+  "SelectedNode": "\\smart_contracts\\scripts\\deploy-vault.js",
   "PreviewInSolutionExplorer": false
 }
