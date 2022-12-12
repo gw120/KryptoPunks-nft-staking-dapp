@@ -24,7 +24,7 @@ function MintPage() {
     const [info, setInfo] = useState({
         maxMintAmountPerTx: 5,
         mintCost: 0,
-        paused: true,
+        paused: 1,
         userNftIds: [],
         stakedNftIds: [],
         totalReward: 0
@@ -65,7 +65,7 @@ function MintPage() {
             setInfo({
                 maxMintAmountPerTx: Number(maxMintAmountPerTx),
                 mintCost: Number(ethers.utils.formatUnits(cost, "ether")),
-                paused: paused,
+                paused: Number(paused),
                 userNftIds: userTokens,
                 stakedNftIds: stakedTokens,
                 totalReward: Number(reward)
@@ -74,7 +74,7 @@ function MintPage() {
     }
 
     const mint = async () => {
-        if (data.network === networksMap[networkDeployedTo] && !info.paused) {
+        if (data.network === networksMap[networkDeployedTo] && info.paused == 2) {
             try {
                 setLoading(true)
                 const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
@@ -100,7 +100,7 @@ function MintPage() {
 
     const stakeItem = async (id) => {
         console.log([id])
-        if (data.network === networksMap[networkDeployedTo] && !info.paused) {
+        if (data.network === networksMap[networkDeployedTo]) {
             console.log([id])
             try {
                 setLoading(true)
@@ -127,7 +127,7 @@ function MintPage() {
     }
 
     const unstakeItem = async (id) => {
-        if (data.network === networksMap[networkDeployedTo] && !info.paused) {
+        if (data.network === networksMap[networkDeployedTo]) {
             try {
                 setLoading(true)
                 const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
@@ -148,7 +148,7 @@ function MintPage() {
     }
 
     const unstakeAll = async () => {
-        if (data.network === networksMap[networkDeployedTo] && !info.paused) {
+        if (data.network === networksMap[networkDeployedTo]) {
             try {
                 setLoading(true)
                 const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
@@ -169,7 +169,7 @@ function MintPage() {
     }
 
     const claim = async () => {
-        if (data.network === networksMap[networkDeployedTo] && !info.paused) {
+        if (data.network === networksMap[networkDeployedTo]) {
             try {
                 setLoading(true)
                 const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
