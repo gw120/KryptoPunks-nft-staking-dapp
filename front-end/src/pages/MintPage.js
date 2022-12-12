@@ -191,7 +191,7 @@ function MintPage() {
 
     useEffect(() => {
         getInfo()
-    }, [])
+    }, [data.account])
 
 
     return (
@@ -232,8 +232,11 @@ function MintPage() {
                                 </tr>
                                 <tr>
                                     <td className='p-2'>Earned Reward</td>
-                                    <td>{info.totalReward}</td>
-                                </tr>
+                                    <td>
+                                        {info.totalReward !== 0 ?
+                                            parseFloat(info.totalReward).toFixed(6) : 0
+                                        }
+                                    </td>                                </tr>
                             </tbody>
                         </Table >
                         <div style={{ textAlign: "center" }} >
