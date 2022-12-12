@@ -3,14 +3,11 @@
     "",
     "\\front-end",
     "\\front-end\\src",
-    "\\front-end\\src\\assets",
-    "\\front-end\\src\\components",
-    "\\front-end\\src\\pages",
     "\\smart_contracts",
     "\\smart_contracts\\contracts",
     "\\smart_contracts\\scripts",
     "\\smart_contracts\\test"
   ],
-  "SelectedNode": "\\smart_contracts\\scripts\\deploy-vault.js",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
