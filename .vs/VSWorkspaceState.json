@@ -3,11 +3,12 @@
     "",
     "\\front-end",
     "\\front-end\\src",
+    "\\front-end\\src\\pages",
     "\\smart_contracts",
     "\\smart_contracts\\contracts",
-    "\\smart_contracts\\scripts",
+    "\\smart_contracts\\contracts\\interfaces",
     "\\smart_contracts\\test"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\front-end\\src\\pages\\MintPage.js",
   "PreviewInSolutionExplorer": false
 }
