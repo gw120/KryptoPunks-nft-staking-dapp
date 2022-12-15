@@ -2,13 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\front-end",
-    "\\front-end\\public",
     "\\front-end\\src",
-    "\\front-end\\src\\components",
     "\\front-end\\src\\pages",
+    "\\front-end\\src\\utils",
     "\\smart_contracts",
-    "\\smart_contracts\\contracts\\interfaces",
-    "\\smart_contracts\\test"
+    "\\smart_contracts\\contracts\\interfaces"
   ],
   "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
