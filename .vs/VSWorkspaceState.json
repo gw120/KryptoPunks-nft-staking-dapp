@@ -3,10 +3,10 @@
     "",
     "\\front-end",
     "\\front-end\\src",
-    "\\front-end\\src\\components",
     "\\smart_contracts",
+    "\\smart_contracts\\contracts",
     "\\smart_contracts\\contracts\\interfaces"
   ],
-  "SelectedNode": "\\front-end\\src\\components\\Mint.js",
+  "SelectedNode": "\\smart_contracts\\contracts\\NFTStakingVault.sol",
   "PreviewInSolutionExplorer": false
 }
