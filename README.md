@@ -79,9 +79,7 @@ Please install or have installed the following:
 
 Clone this repo with the command :
    ```sh
-   https://github.com/kaymen99/KryptoPunks-nft-staking-dapp.git
-   cd KryptoPunks-nft-staking-dapp
-   ```
+   git clone https://github.com/gw120/KryptoPunks-nft-staking-dapp
 
 ### Contracts
 As mentioned before the contracts are developed with the Hardhat framework, before deploying them you must first install the required dependancies by running :
