@@ -8,7 +8,10 @@ const { getAmountInWei, developmentChains } = require('../utils/helper-scripts')
 async function main() {
     const deployNetwork = hre.network.name
 
-    const maxSupply = 10000
+    // test URI
+    const baseURI = "ipfs://QmeHfivPyobBjSXtVUv2VHCMmugDRfZ7Qv7QfkrG4BWLQz"
+
+    const maxSupply = 30
     const mintCost = getAmountInWei(0.01)
     const maxMintAmount = 5
 
@@ -17,7 +20,7 @@ async function main() {
     const nftContract = await NFTContract.deploy(maxSupply, mintCost, maxMintAmount);
 
     await nftContract.deployed();
-    const set_tx = await nftContract.setBaseURI("ipfs/QmdN2LsGe35Skv8HJjjYQqtv2LNs43VS7zxQgcLPwHxYjd/")
+    const set_tx = await nftContract.setBaseURI(baseURI)
     await set_tx.wait()
 
     // Deploy KryptoPunks ERC20 token contract 

@@ -69,9 +69,13 @@ On this page the user also finds a list of all the items he owns, which can be d
 The dashboard can only be accessed by the nft contract owner from the account window by clicking on the account button in the top of the page, it gives the owner the possibility of withdraw the contract balance, changing nft minting parametres or changing contract state (paused):
 ![Capture d’écran 2022-08-17 à 22 49 01](https://user-images.githubusercontent.com/83681204/185250309-9166ae4d-8bbb-422f-99d1-4ed9c41d46a5.png)
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- USAGE GUIDE -->
+
 ## How to Run
+
 ### Prerequisites
+
 Please install or have installed the following:
 * [nodejs](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/)
 * [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) Chrome extension installed in your browser
@@ -79,7 +83,7 @@ Please install or have installed the following:
 
 Clone this repo with the command :
    ```sh
-   git clone https://github.com/gw120/KryptoPunks-nft-staking-dapp
+   git clone https://https://github.com/gw120/KryptoPunks-nft-staking-dapp
 
 ### Contracts
 As mentioned before the contracts are developed with the Hardhat framework, before deploying them you must first install the required dependancies by running :
