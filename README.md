@@ -1,10 +1,13 @@
 ﻿<div id="top"></div>
 <!-- ABOUT THE PROJECT -->
+
+
 # KryptoPunks NFT Staking Dapp
 This is a modern NFT project, the dapp allows users to mint their KryptoPunks items and stake them to receive staking rewards in the form of KryptoPunkToken (KPT).
 <p align="center">
   <img alt="Dark" src="https://user-images.githubusercontent.com/83681204/185254772-40163a1d-3481-4519-b936-b5093c71e097.png" width="100%">
 </p>
+
 ### Built With
 * [Solidity](https://docs.soliditylang.org/)
 * [Hardhat](https://hardhat.org/getting-started/)
@@ -12,6 +15,7 @@ This is a modern NFT project, the dapp allows users to mint their KryptoPunks it
 * [ethers.js](https://docs.ethers.io/v5/)
 * [web3modal](https://github.com/Web3Modal/web3modal)
 * [material ui](https://mui.com/getting-started/installation/)
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -36,7 +40,11 @@ This is a modern NFT project, the dapp allows users to mint their KryptoPunks it
 </details>
 
 <!-- PROJECT STRUCTURE -->
+
+
 ## Project Structure
+
+
 ### Smart contracts
 The contracts development and testing is done using the Hardhat framework in the smart_contracts folder, for this project there are 3 main contracts :
       <ul>
@@ -49,6 +57,8 @@ The staking vault contract is at the center of this application, it allows users
       </ul>
 <b>The architecture of the application</b> is illustrated in the diagram below :
 ![staking](https://user-images.githubusercontent.com/83681204/185807295-76ab7ea9-3f46-49bb-bf26-c43fa9de7002.png)
+
+
 ### User interface
    
 The front end is built with React JS, it allows users to mint new KryptoPunks nfts and stake them in the vault for receiving KPT rewards over time, the app also give a simple admin dashboard for setting minting prices and maximum NFTs minted per tx.
@@ -114,10 +124,11 @@ This will create a config.js file and an artifacts folder and transfer them to t
       chainId: 4,
     }
    ```
-If you want to test the contracts or the staking process, you can do it by running:
+If you want to test the vault/NFT contracts or the staking process, you can do it by running:
    ```sh
    yarn test
    ```
+
 ### Front end
 To start the user interface just run the following commands :
    ```sh
@@ -127,10 +138,12 @@ To start the user interface just run the following commands :
    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- Contact -->
+
 ## Contact
 If you have any question or problem running this project just contact me: aymenMir1001@gmail.com
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- LICENSE -->
+
 ## License
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
